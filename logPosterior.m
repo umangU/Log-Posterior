@@ -1,3 +1,4 @@
+# Log Posterior function definition
 function [logpdf, gradlogpdf] = logPosterior(Parameters,X,Y,InterceptPriorMean,InterceptPriorSigma,BetaPriorMean,BetaPriorSigma,LogNoiseVarianceMean,LogNoiseVarianceSigma)
 
 Intercept        = Parameters(1);
